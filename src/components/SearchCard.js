@@ -15,7 +15,7 @@ export default function SearchCard({data}){
       </div>
       <div className='flex gap-1 flex-col'>
         <h3 className='max-w-2xl'>
-          <a href='#' className='line-clam-2'>
+          <a href='#' className='line-clamp-2'>
             {data.videoTitle}
           </a>
         </h3>
