@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# YOUTUBE FRONTEND REPLICA
+A modern recreation of YouTube's frontend interface built with JavaScript. This project aims to replicate the core design, layout, and user experience of YouTube's web application.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚧 Project Status
 
-## Available Scripts
+**Currently in Development** - This project is actively being worked on and is not yet complete.
 
-In the project directory, you can run:
+## 🎯 Project Goals
 
-### `npm start`
+- Recreate YouTube's responsive design and layout
+- Implement core UI components and interactions
+- Practice modern frontend development techniques
+- Build a portfolio-worthy project demonstrating web development skills
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠️ Technologies Used
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **JavaScript** - Primary programming language
+- **HTML5** - Structure and semantics
+- **CSS3** - Styling and responsive design
+- Additional libraries and frameworks (to be updated as development progresses)
 
-### `npm test`
+## 📋 Planned Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [ ] Homepage with video grid layout
+- [ ] Video player interface
+- [ ] Navigation sidebar
+- [ ] Search functionality
+- [ ] Responsive design for mobile and desktop
+- [ ] Video thumbnails and metadata display
+- [ ] Comments section UI
+- [ ] User profile interface
+- [ ] Dark/Light theme toggle
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+*Instructions will be added as the project develops*
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📁 Project Structure
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Project structure will be documented as development progresses*
 
-### `npm run eject`
+## 🤝 Contributing
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This is a personal learning project, but suggestions and feedback are welcome!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📄 License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This project is for educational purposes only. YouTube and its design are property of Google LLC.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📞 Contact
 
-## Learn More
+- GitHub: [@aridepai17](https://github.com/aridepai17)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Note:** This project is created for educational purposes and is not affiliated with YouTube or Google.
