@@ -3,7 +3,7 @@ import axios from "axios";
 import { convertRawtoString } from "../../utils/convertRawtoString";
 import { timeSince } from "../../utils/timeSince";
 
-const API_KEY = process.env.YOUTUBEREPLICA;
+const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 
 export const getVideoDetails = createAsyncThunk(
   "youtube/App/videoDetails",

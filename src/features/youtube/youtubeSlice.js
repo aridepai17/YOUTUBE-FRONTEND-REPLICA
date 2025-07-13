@@ -1,4 +1,4 @@
-import { createSlice } from "reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 import { getHomePageVideos } from "../../store/reducers/getHomePageVideos";
 import { getSearchPageVideos } from "../../store/reducers/getSearchPageVideos";
 import { getRecommendedVideos } from "../../store/reducers/getRecommendedVideos";

@@ -19,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     dispatch(clearVideos());
-    if (searchTerm === "") navigate("/");
+    if (searchTerm === "") dispatch(getHomePageVideos(false));
     else dispatch(getSearchPageVideos(false));
   }, [dispatch, navigate, searchTerm]);
 
@@ -34,7 +34,11 @@ export default function Home() {
           <div className="py-8 pl-8 flex flex-col gap-5 w-full">
             <InfiniteScroll
               dataLength={videos.length}
-              next={() => dispatch(getSearchPageVideos(true))}
+              next={() => 
+                searchTerm === ""
+                  ?  dispatch(getSearchPageVideos(true))
+                  :  dispatch(getSearchPageVideos(true))
+              }
               hasMore={videos.length < 500}
               loader={<Spinner />}
               height={600}

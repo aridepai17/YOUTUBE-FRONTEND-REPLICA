@@ -18,11 +18,11 @@ export default function Home() {
 
 
   return (
-    <div className='max-h-screen overflow-hidden'>
+    <div className='max-h-screen overflow-hidden overflow-y-auto overflow-x-hidden'>
       <div style={{height:"7.5vh"}}>
       <Navbar/>
       </div>
-      <div className='flex' style={{height:"92.5vh"}}>
+      <div className='flex' style={{height:"95vh"}}>
       <Sidebar/>
       {
         videos.length ? (
@@ -31,9 +31,9 @@ export default function Home() {
           next={()=> dispatch(getHomePageVideos(true))}
           hasMore={videos.length<500}
           loader={<Spinner/>}
-          height={650}
+          height={1000}
           >
-              <div className='grid gap-y-14 gap-x-8 grid-cols-4 p-8'>
+              <div className='grid gap-y-14 gap-x-8 grid-cols-5 p-8'>
                 {videos.map((item) => {
                   return <Card data={item} key={item.videoId}/>
                 })}

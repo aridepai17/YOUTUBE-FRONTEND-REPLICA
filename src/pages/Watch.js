@@ -17,7 +17,7 @@ export default function Watch() {
   console.log(currentPlaying);
 
   const recommendedVideo = useAppSelector(
-    (state) => state.youtubApp.recommendedVideo
+    (state) => state.youtubeApp.recommendedVideo
   );
 
   useEffect(() => {

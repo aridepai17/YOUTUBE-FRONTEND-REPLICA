@@ -1,8 +1,8 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
-import { parseRecommendedData } from "../../utils/parseRecommendedData";
+import { parseRecommendedData } from "../../utils/parseRecommendendData";
 
-const API_KEY = process.env.YOUTUBEREPLICA;
+const API_KEY = process.env.REACT_APP_YOUTUBE_API_KEY;
 
 export const getRecommendedVideos = createAsyncThunk(
   "youtubeApp/getRecommendedVideos",
